@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main(void){
+	int idade;
+	char nome[100], sexo, mulher='M', homem='H'; 
+	
+	printf("Digite seu nome: ");
+	scanf("%s", nome);
+	
+	printf("\nDigite o sexo M ou H: ");
+	scanf(" %c", &sexo);
+	
+	printf("\nDigite sua idade: ");
+	scanf("%d", &idade);
+	
+	if (sexo == mulher){
+		printf("Eh mulher");
+		
+	}
+	
+	else if (sexo == homem){
+		printf("Nao eh mulher");
+	}
+	
+	else{
+		printf("Sexo nao identificado, digite novamente");
+	}
+
+	
+	return 0;
+	
+}
