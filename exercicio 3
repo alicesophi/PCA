@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void){
+	float salario, novosalario=0;
+	
+	printf("Digite seu salario: ");
+	scanf("%f", &salario);
+	
+	novosalario = salario + (salario*0.1);
+	
+	printf("Seu novo salario eh: R$%.3f", novosalario);
+
+
+	
+	return 0;
+	
+}
